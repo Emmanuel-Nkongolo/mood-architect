@@ -13,6 +13,8 @@ app = FastAPI()
 app.add_middleware(
     CORSMiddleware,
     allow_origins = [ "https://mood-architect.vercel.app",
+        "https://mood-architect-git-main-emmanuelnkongolos-projects.vercel.app",
+        "https://mood-architect-ajfielgy4-emmanuelnkongolos-projects.vercel.app",
         "http://localhost:5173",], 
     allow_credentials = True,
     allow_methods = ["*"],
