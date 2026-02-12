@@ -1,0 +1,10 @@
+# Backend
+backend/.env
+backend/mood-architect/
+backend/__pycache__/
+
+# Frontend
+frontend/node_modules/
+
+# General
+.DS_Store
