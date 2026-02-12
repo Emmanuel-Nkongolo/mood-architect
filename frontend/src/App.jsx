@@ -35,7 +35,7 @@ function App() {
 
     try {
       const response = await fetch(
-        "https://mood-architect-backend.onrender.com",
+        "https://mood-architect-backend.onrender.com/api/affirmation",
         {
           method: "POST",
           headers: { "Content-Type": "application/json" },
