@@ -12,7 +12,8 @@ app = FastAPI()
 #configure the cors for communication with frontend(frontend -> backend)
 app.add_middleware(
     CORSMiddleware,
-    allow_origins = ["*"], #To be changed later after deployment
+    allow_origins = [ "https://mood-architect.vercel.app",
+        "http://localhost:5173",], 
     allow_credentials = True,
     allow_methods = ["*"],
     allow_headers = ["*"],
