@@ -27,6 +27,11 @@ class AffirmationRequest(BaseModel):
     name: str
     feeling: str
 
+#Root just so it's not weird
+@app.get('/')
+def root():
+    return {"message": "Mood Architect API is running 🌿"}
+
 #My main endpoint 
 @app.post("/api/affirmation")
 async def get_affirmation(data: AffirmationRequest):
