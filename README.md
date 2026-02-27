@@ -1,4 +1,4 @@
-# 🌿 Mood Architect
+# Mood Architect
 
 A full-stack AI web app that generates personalized therapeutic affirmations based on your name and how you're feeling.
 
